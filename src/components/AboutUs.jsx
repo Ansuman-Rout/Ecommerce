@@ -11,7 +11,7 @@ const AboutUs = () => {
               <div class="about">
               
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga provident ea hic, neque amet sequi temporibus iure aliquid placeat inventore. Quae dolores dolore, cum nulla quas ipsum facere maxime, necessitatibus!
+                 "Clever Monkey" refers to different entities, primarily a Mauritian brand strategy and design agency known for its creative work in brand identity, website design, and digital marketing. The term also appears in product marketing for clothing brands with "Clever Monkey" printed on items sold on sites like Amazon.ie. Additionally, "Clever Monkey" is used by a children's toy retailer, Indoor Outdoors, and is sometimes used in the name of other businesses or as a title in content marketing. 
                 </p>
                 <a href="#">Read More</a>
               </div>
@@ -19,21 +19,21 @@ const AboutUs = () => {
             <div class="about-section-col">
               <div class="skills">
                 <div class="skill">
-                  <div class="title">Web Design</div>
+                  <div class="title">Man</div>
                   <div class="progress">
                     <div class="progress-bar p1"><span>90%</span></div>
                   </div>
                 </div>
 
                 <div class="skill">
-                  <div class="title">UI Design</div>
+                  <div class="title">Women</div>
                   <div class="progress">
                     <div class="progress-bar p2"><span>70%</span></div>
                   </div>
                 </div>
 
                 <div class="skill">
-                  <div class="title">UX Design</div>
+                  <div class="title">Kids</div>
                   <div class="progress">
                     <div class="progress-bar p3"><span>50%</span></div>
                   </div>
