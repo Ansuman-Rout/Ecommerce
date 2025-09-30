@@ -1,0 +1,71 @@
+/* Navbar.css */
+.custom-navbar {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+  }
+  
+  .custom-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff !important;
+    animation: bounce 2s infinite;
+  }
+  
+  .custom-brand:hover {
+    color: #ffdd57 !important;
+  }
+  
+  .custom-link {
+    color: #fff !important;
+    font-weight: 500;
+    margin: 0 10px;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ffdd57;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+  }
+  
+  .custom-link:hover::after {
+    width: 100%;
+  }
+  
+  .custom-link:hover {
+    color: #ffdd57 !important;
+  }
+  
+  .custom-cart-btn {
+    background-color: #ffdd57;
+    border: none;
+    color: #2575fc;
+    font-weight: 500;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .custom-cart-btn:hover {
+    background-color: #2575fc;
+    color: #fff;
+    transform: translateY(-3px);
+  }
+  
+  /* Animation for the brand */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(-5px);
+    }
+  }
